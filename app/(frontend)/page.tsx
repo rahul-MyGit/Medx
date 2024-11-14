@@ -1,8 +1,9 @@
+import Hero from "@/components/frontend/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen justify-center items-center">
-      <h2 className="font-semibold">medX ap</h2>
+    <main className="max-w-6xl mx-auto">
+      <Hero />
     </main>
   );
 }
